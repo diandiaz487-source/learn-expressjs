@@ -35,7 +35,7 @@ app.post('/productos', async (req, res) => {
   }
 });
 
-const PORT = 3000;
+const PORT = 5014;
 
 app.listen(PORT, () => {
   console.log(`Servidor en http://localhost:${PORT}`);
